@@ -24,6 +24,8 @@ npm init
 npm i
 ```
 
+link: https://github.com/Polymer/polymer
+
 ### Using Polymer
 
 ```html

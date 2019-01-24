@@ -1,5 +1,19 @@
 <link rel="import" href="/bower_components/polymer/polymer.html">
 
-<dom-module id="">
-
+<dom-module id="my-element">
+    <template>
+        <p>Hola, <strong>{{who}}</strong></p>
+    </template>
 </dom-module>
+
+<script>
+    Polymer({
+        is:'my-element',
+        properties: {
+            who: {
+                type: String,
+                value: 'My Element desde Polymer'
+            }
+        }
+    })
+</script>
