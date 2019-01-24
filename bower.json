@@ -1,0 +1,21 @@
+{
+  "name": "init-polymer-scratch",
+  "description": "segundo proyecto en polymer",
+  "main": "",
+  "authors": [
+    "https://github.com/karoldesign"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^2.2.4"
+  }
+}
